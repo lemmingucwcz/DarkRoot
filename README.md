@@ -1,7 +1,7 @@
 # DarkRoot
 Dark skin for new root.cz site
 
-Written in lesscss metalanguage ( http://http://lesscss.org/ )
+Written in lesscss metalanguage ( http://lesscss.org/ )
 
 How to get final CSS:
 
@@ -12,4 +12,6 @@ b) lessc darkRoot.less
 2) If you have maven installed:
 a) mvn install
 b) get CSS from target/darkRoot-{version}/darkRoot.css
+
+3) Use http://lesscss.org/less-preview/
 
