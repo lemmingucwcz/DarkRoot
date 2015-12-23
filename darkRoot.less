@@ -1,0 +1,155 @@
+/ Colors
+@black0: black; // Base black background
+@black1: #333; // Not so black background
+@black2: #444; // Even lighter black background
+@black3: #555; // Lightest black background
+@whiteText1: #f8f8f8; // Whitest white for text
+@whiteText2: #e0e0e0; // A bit darker color for text
+@whiteText3: #c0c0c0; // Least important text
+@orange: #f04c23; // Orange color used by root
+@yellow: #fbf0bf; // Yellow color used by root
+
+
+// Common and title page
+
+body {
+    background-color: black;
+    color: @whiteText1;
+}
+
+.page {
+    background-color: @black0;
+}
+
+.sidebar {
+    background-color: @black1;
+    color: @whiteText1;
+}
+
+.article__heading a {
+    color: @whiteText1;
+}
+
+.article__perex {
+    color: @whiteText2;
+}
+
+.article--sidebar:hover {
+    background: @black2;
+}
+
+.impressum {
+    color: @whiteText3;
+}
+
+.impressum--article .impressum__author {
+    color: @whiteText3;
+}
+
+.impressum__date {
+    color: @whiteText2;
+}
+
+.impressum__rubric {
+    color: @whiteText3;
+}
+
+.author__name a {
+    color: @whiteText1;
+}
+
+.opener {
+    background-color: @black1
+;
+}
+
+.opener__body {
+    color: @whiteText1;
+}
+
+.tips {
+    background-color: @black2;
+}
+
+.tip__link, .tip__more {
+    color: @whiteText1;
+}
+
+.tile {
+    background-color: @black1;
+}
+
+.perex {
+    color: @whiteText2;
+}
+
+.perex__date {
+    color: @whiteText2;
+}
+
+.discussion__tabs .active .nav__link {
+    background-color: @orange;
+    color: white;
+}
+
+.discussion__link {
+    color: @whiteText1;
+}
+
+.discussion__topic:hover {
+    background-color: @black2;
+}
+
+.sklik-ads .sklik-ad .sklik-title a {
+    color: @whiteText1;
+}
+
+.section--detail-bottom {
+    background: @black2;
+}
+
+
+// Article
+
+.content--bg, .content--breadcrumb, .content--detail, .content--promo {
+    background-color: @black1;
+}
+
+.detail__perex .perex {
+    background: @black2;
+}
+
+.ipn-123 .inactive {
+    background-color: @black2;
+}
+
+.ipn-123>a, .ipn-123>span {
+    background-color: @black2;
+}
+
+.pagination {
+    color: @whiteText1;
+}
+
+
+
+// Comments
+#addComment {
+    background: @black2;
+}
+
+
+.loginNotice {
+    background: @black3;
+    color: @yellow;
+}
+
+
+.opinion-view .opinion-text h3.title a {
+    color: @whiteText1;
+}
+
+.opinion-view.new {
+    background-color: @black2;
+}
+
