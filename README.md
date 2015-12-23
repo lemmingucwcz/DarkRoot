@@ -13,3 +13,5 @@ b) lessc darkRoot.less
 a) mvn install
 b) get CSS from target/darkRoot-{version}/darkRoot.css
 
+3) Use http://lesscss.org/less-preview/
+
