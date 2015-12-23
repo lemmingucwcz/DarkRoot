@@ -1,7 +1,7 @@
 # DarkRoot
 Dark skin for new root.cz site
 
-Written in lesscss metalanguage ( http://http://lesscss.org/ )
+Written in lesscss metalanguage ( http://lesscss.org/ )
 
 How to get final CSS:
 
