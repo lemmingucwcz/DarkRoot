@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.michalkara</groupId>
+    <artifactId>darkRoot</artifactId>
+    <version>0.1</version>
+    <name>Dark Root skin</name>
+    <description><![CDATA[Dark skin for new root.cz site]]></description>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.lesscss</groupId>
+                <artifactId>lesscss-maven-plugin</artifactId>
+                <version>1.7.0.1.1</version>
+                <configuration>
+                    <sourceDirectory>${project.basedir}</sourceDirectory>
+                    <outputDirectory>${project.build.directory}/${project.build.finalName}</outputDirectory>
+                    <compress>true</compress>
+                    <includes>
+                        <include>darkRoot.less</include>
+                    </includes>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
