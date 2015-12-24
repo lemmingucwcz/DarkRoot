@@ -21,6 +21,10 @@ body {
     background-color: @black0;
 }
 
+.main {
+    background-color: @black0;  
+}
+
 .sidebar {
     background-color: @black1;
     color: @whiteText1;
@@ -161,4 +165,23 @@ body {
 
 .container-fluid hr {
    visibility: hidden;
+}
+
+/* Move sidebar to the right on wide screens */
+@media (min-width: 970px) {
+  .page {
+    margin-left:auto;
+    margin-right:354px;
+  }
+  .sidebar {
+    left: auto;
+    right: -354px;
+  }
+}
+
+/* Make main column and side column tops aligned */
+@media screen and (min-width: 777px) {
+  .page {
+    padding-top: 0px;
+  }
 }
