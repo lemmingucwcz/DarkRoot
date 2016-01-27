@@ -22,7 +22,8 @@ body {
 }
 
 .main {
-    background-color: @black0;  
+    background-color: @black0;
+    border: none;
 }
 
 .sidebar {
@@ -167,7 +168,23 @@ body {
    visibility: hidden;
 }
 
+/* Various links */
+.link__text, .promotips__link, .related__link {
+  color: @whiteText2;
+}
+
+/* Detail info bar */
+.detail__info-bar {
+  background-color: @black2;
+}
+
+.comments__count--new, .comments__count--total {
+  color: @whiteText1;
+}
+
+
 /* Move sidebar to the right on wide screens */
+/* (not working now)
 @media (min-width: 970px) {
   .page {
     margin-left:auto;
@@ -178,6 +195,7 @@ body {
     right: -354px;
   }
 }
+*/
 
 /* Make main column and side column tops aligned */
 @media screen and (min-width: 777px) {

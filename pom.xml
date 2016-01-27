@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.michalkara</groupId>
     <artifactId>darkRoot</artifactId>
-    <version>0.1</version>
+    <version>1.0</version>
     <name>Dark Root skin</name>
     <description><![CDATA[Dark skin for new root.cz site]]></description>
     <build>
