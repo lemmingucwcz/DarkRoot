@@ -23,7 +23,7 @@ body {
 }
 
 .main {
-    background-color: @black0;
+    background-color: @black1;
     border: none;
 }
 
@@ -220,22 +220,29 @@ body {
 }
 
 /* Move sidebar to the right on wide screens */
-/* (not working now)
-@media (min-width: 970px) {
+@media (min-width: 777px) {
   .page {
-    margin-left:auto;
-    margin-right:354px;
+    padding-top: 0px;
+    padding-left: 0;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: 300px;
   }
   .sidebar {
     left: auto;
-    right: -354px;
+    right: -300px;
   }
-}
-*/
+};
 
-/* Make main column and side column tops aligned */
-@media screen and (min-width: 777px) {
+@media (min-width: 970px) {
   .page {
-    padding-top: 0px;
+    margin-left: auto;
+    margin-right: 354px;
+    padding-right: 15px;
   }
-}
+  .sidebar {
+    left: auto;
+    right: -360px;
+  }
+};
+
